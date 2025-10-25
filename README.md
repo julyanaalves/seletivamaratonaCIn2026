@@ -349,15 +349,28 @@ Exemplo:
 <hr/>
 
 <details>
-<summary><strong>Questão J — Em breve</strong> — <code>20251025/J.cpp</code></summary>
+<summary><strong>Questão J — Delete from the Subsequence</strong> — <code>20251025/J.cpp</code></summary>
 
-- Descrição: em breve.
+- Operação: escolher uma subsequência e deletar todos os elementos estritamente maiores que a média dessa subsequência.
+- Resultado máximo de deleções: é possível deletar todos os elementos estritamente maiores que o mínimo do array. Logo, a resposta é o número de elementos > min(a).
 
 Exemplo:
 
 | Input | Output |
 |---|---|
-| <pre>—</pre> | <pre>—</pre> |
+| <pre>
+3
+6
+1 1 1 2 2 3
+6
+9 9 9 9 9 9
+6
+6 4 1 1 4 1
+</pre> | <pre>
+3
+0
+3
+</pre> |
 
 </details>
 
