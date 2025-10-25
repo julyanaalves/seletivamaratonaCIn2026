@@ -12,6 +12,7 @@ void solve(){
     for (int x : a) if (x > mn) ++ans;
     cout << ans << '\n';
 }
+
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -19,6 +20,6 @@ int main() {
     int t; 
     if (!(cin >> t)) return 0;
     while (t--) solve();
-    
+
     return 0;
 }
