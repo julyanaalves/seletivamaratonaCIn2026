@@ -19,6 +19,7 @@ int main(){
 			else if(c == 'C') ++cntC;
 			else if(c == 'D') ++cntD;
 		}
+        
 		int ans = 0;
 		auto cap = [&](int x){ return x < n ? x : n; };
 		ans += cap(cntA);
