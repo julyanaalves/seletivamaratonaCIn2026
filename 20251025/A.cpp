@@ -1,4 +1,6 @@
-#include <bits/stdc++.h> // includes all standard headers
+#include <iostream>
+#include <string>
+#include <vector>
 using namespace std; // using the standard namespace
 
 int main(){
