@@ -50,7 +50,25 @@ Exemplo:
 
 | Input | Output |
 |---|---|
-| <pre>5\n3\nABA\n11\nDDBBCCCBBEZ\n7\nFFGZZZY\n1\nZ\n2\nAB\n</pre> | <pre>NO\nNO\nYES\nYES\nYES\n</pre> |
+| <pre>
+5
+3
+ABA
+11
+DDBBCCCBBEZ
+7
+FFGZZZY
+1
+Z
+2
+AB
+</pre> | <pre>
+NO
+NO
+YES
+YES
+YES
+</pre> |
 
 </details>
 
@@ -66,7 +84,20 @@ Exemplo:
 
 | Input | Output |
 |---|---|
-| <pre>5\n2 3\n10 10\n2 4\n7 4\n9 3\n</pre> | <pre>1\n0\n2\n2\n1\n</pre> |
+| <pre>
+5
+2 3
+10 10
+2 4
+7 4
+9 3
+</pre> | <pre>
+1
+0
+2
+2
+1
+</pre> |
 
 </details>
 
@@ -81,7 +112,22 @@ Exemplo:
 
 | Input | Output |
 |---|---|
-| <pre>4\n4\n4 3 2 5\n5\n6 1 10 7 10\n6\n6 6 6 6 6 6\n3\n100 100 0\n</pre> | <pre>3\n7\n6\n0\n</pre> |
+| <pre>
+4
+4
+4 3 2 5
+5
+6 1 10 7 10
+6
+6 6 6 6 6 6
+3
+100 100 0
+</pre> | <pre>
+3
+7
+6
+0
+</pre> |
 
 </details>
 
@@ -103,7 +149,18 @@ Exemplo:
 
 | Input | Output |
 |---|---|
-| <pre>2\n3 3\n1 0\n-1 6\n3 3\n-1 -1\n4 3\n</pre> | <pre>3.6055512755\n3.2015621187\n</pre> |
+| <pre>
+2
+3 3
+1 0
+-1 6
+3 3
+-1 -1
+4 3
+</pre> | <pre>
+3.6055512755
+3.2015621187
+</pre> |
 
 </details>
 
@@ -121,7 +178,19 @@ Exemplo:
 
 | Input | Output |
 |---|---|
-| <pre>3\n5 2\n2 9 2 4 1\n4 4\n1 3 2 1\n3 1\n1 3 1\n</pre> | <pre>2\n0\n1\n</pre> |
+| <pre>
+3
+5 2
+2 9 2 4 1
+4 4
+1 3 2 1
+3 1
+1 3 1
+</pre> | <pre>
+2
+0
+1
+</pre> |
 
 </details>
 
@@ -138,7 +207,28 @@ Exemplo:
 
 | Input | Output |
 |---|---|
-| <pre>6\n1\nABCD\n2\nAAAAAAAA\n2\nAAAABBBB\n2\n????????\n3\nABCABCABCABC\n5\nACADC??ACAC?DCAABC?C\n</pre> | <pre>4\n2\n4\n0\n9\n13\n</pre> |
+| <pre>
+6
+1
+ABCD
+2
+AAAAAAAA
+2
+AAAABBBB
+2
+????????
+3
+ABCABCABCABC
+5
+ACADC??ACAC?DCAABC?C
+</pre> | <pre>
+4
+2
+4
+0
+9
+13
+</pre> |
 
 </details>
 
@@ -154,7 +244,28 @@ Exemplo:
 
 | Input | Output |
 |---|---|
-| <pre>6\n4\n4 2 10 1\n2\n1 3\n2\n6 1\n3\n1 4 2\n5\n1 2 3 4 3\n12\n4 31 25 50 30 20 34 46 42 16 15 16\n</pre> | <pre>5\n1\n2\n1\n0\n3\n</pre> |
+| <pre>
+6
+4
+4 2 10 1
+2
+1 3
+2
+6 1
+3
+1 4 2
+5
+1 2 3 4 3
+12
+4 31 25 50 30 20 34 46 42 16 15 16
+</pre> | <pre>
+5
+1
+2
+1
+0
+3
+</pre> |
 
 </details>
 
@@ -173,7 +284,25 @@ Exemplo:
 
 | Input | Output |
 |---|---|
-| <pre>5\n6\n-1 7 -4 -2 5 -8\n8\n-1 0 0 -2 1 0 -3 0\n5\n2 -1 0 -3 -7\n5\n0 -17 0 1 0\n4\n-1 0 -2 -1\n</pre> | <pre>27 3\n7 2\n13 1\n18 1\n4 1\n</pre> |
+| <pre>
+5
+6
+-1 7 -4 -2 5 -8
+8
+-1 0 0 -2 1 0 -3 0
+5
+2 -1 0 -3 -7
+5
+0 -17 0 1 0
+4
+-1 0 -2 -1
+</pre> | <pre>
+27 3
+7 2
+13 1
+18 1
+4 1
+</pre> |
 
 </details>
 
@@ -188,7 +317,32 @@ Exemplo:
 
 | Input | Output |
 |---|---|
-| <pre>11\n09:41\n18:06\n12:14\n00:59\n00:00\n14:34\n01:01\n19:07\n11:59\n12:00\n21:37\n</pre> | <pre>09:41 AM\n06:06 PM\n12:14 PM\n12:59 AM\n12:00 AM\n02:34 PM\n01:01 AM\n07:07 PM\n11:59 AM\n12:00 PM\n09:37 PM\n</pre> |
+| <pre>
+11
+09:41
+18:06
+12:14
+00:59
+00:00
+14:34
+01:01
+19:07
+11:59
+12:00
+21:37
+</pre> | <pre>
+09:41 AM
+06:06 PM
+12:14 PM
+12:59 AM
+12:00 AM
+02:34 PM
+01:01 AM
+07:07 PM
+11:59 AM
+12:00 PM
+09:37 PM
+</pre> |
 
 </details>
 
