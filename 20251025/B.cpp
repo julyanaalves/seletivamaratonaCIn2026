@@ -6,7 +6,6 @@ int main(){
     cin.tie(nullptr); //optimize input/output
 
     int t;
-    cin >> t;
     if (!(cin >> t)) return 0; // Check for valid input
 
     while (t--){
@@ -15,7 +14,6 @@ int main(){
 
         if (a == b){ // a == b
             cout << 0 << "\n";
-            break;
         } else if (a < b){
             int d = b - a;
             cout << (d % 2 == 1 ? 1 : 2) << "\n";

@@ -1,0 +1,19 @@
+# Compiled source files
+*.o
+*.out
+*.exe
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+teste.cpp
+
+\.cph
